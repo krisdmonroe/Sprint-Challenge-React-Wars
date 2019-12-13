@@ -6,12 +6,13 @@ import styled from 'styled-components';
 const CardOne = styled.div`
 .ui.card{
     background-color:red;
+    width:25%;
 }
 `;
 
 const StarWarsCard = (props) => {
     return (
-        <CardOne>
+<CardOne>
     <Card >
       <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
       <Card.Content>
@@ -26,7 +27,7 @@ const StarWarsCard = (props) => {
       <Card.Content extra>
       </Card.Content>
     </Card>
-    </CardOne>
+</CardOne>
     )
   }
   

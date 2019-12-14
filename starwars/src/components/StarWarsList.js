@@ -21,6 +21,7 @@ export default function Datalist(){
 
 return (
     <div>
+        <>
     {state.map(character => {
     return <StarWarsCard
     key={character.id}
@@ -28,6 +29,7 @@ return (
     birthYear={character.birth_year}
     homeworld={character.homeworld}/>
     })}
+    </>
     </div>
 )
 }
